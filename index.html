@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home - FE Fashion</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+        
+       <header>
+            <div class="container">
+                <section class="logo">
+                <b>FE</b>
+                <span class="blue-dot"></span>
+                <span class="blue-dot"></span>
+                <span>Fashion</span>
+                </section>
+                <nav>
+                    <ul>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Promotions</a></li>
+                        <li><a href="">Newsletter</a></li>
+                        <li class="menu-icon">
+                            <img src="images/menu_icon.png" alt="">
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+ 
+        <section class="hero">
+            <picture>
+                <source media="(max-width: 576px)" srcset="images/logo-small.jpg">
+                <source media="(max-width: 960px)" srcset="images/logo-medium.jpg">
+                <source media="(max-width: 1440px)" srcset="images/logo-large.jpg">
+                <img src="images/logo-super-large.jpg" alt="hero image - VR headset">
+
+            </picture>
+
+            <div class="hero-content">
+                    <div class="container">
+                    <!-- <h1>Discover our FE Fashion</h1> -->
+                    <!-- <p>  
+                         The Vision is to make new fashion line. 
+                    </p>-->
+                    <button>View Headset</button> 
+                 </div>
+            </div>
+        </section>
+
+        <section class="best-sellers">
+            <h2>Best Sellers</h2>
+            <hr>
+
+
+            <div class="product-slider">
+                <div class="container">
+
+                    <div class="product new">
+                    <!--new benqe te shtohet class ne pseudoelement -->
+                        <div class="product-picture">
+                            <img src="images/f1.jpg" alt="product: apple`s VR">
+                        </div>
+                        <div class="product-info">
+                            <h5>Summer dresses</h5>
+                            <h4>Flower dresses</h4>
+                            <div class="price discount">  <!--discount eshte klase tj qe shtohet-->
+                                <h3>US$ 199.99</h3>
+                                <span class="original-price">
+                                    US$ 399.99
+                                </span>
+                            </div>
+                            <button>Add to bag</button>
+
+                        </div>
+                    </div>
+
+                    <div class="product new">
+                        <div class="product-picture">
+                            <img src="images/f2.jpg" alt="product: apple`s VR">
+                        </div>
+                        <div class="product-info">
+
+                            <h5>Job`s dresses</h5>
+                            <h4>Casual dresses </h4>
+                            <div class="price">
+                                <h3>US$ 199.99</h3>
+                
+                            </div>
+                            <button>Add to bag</button>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="product-picture">
+                            <img src="images/f4.jpg" alt="product: apple`s VR">
+                        </div>
+                        <div class="product-info">
+
+                            <h5>Wedding dresses</h5>
+                            <h4>Modern dresses</h4>
+                            <div class="price">
+                                <h3>US$ 399.99</h3>
+                                
+                            </div>
+                            <button>Add to bag</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <h3>Newsletter Signup</h3>
+            <p>Subscribe now and do not miss a single deal!</p>
+            <input type="email" placeholder="Your email..."><button type="submit">Subscribe</button>
+            <!-- input dhe button jane ne nje rresht sepse nuk duam hapersire mes dy formave ne webpage-->
+        </section>
+
+
+        <footer>
+            <div class="container">
+                <ul>
+                    <li class="list-title">Company Info</li>
+                    <li><a href="#">About FE Fashion</a></li>
+                    <li><a href="#">Fashion Bloger</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Digital Services</a></li>
+                    <li><a href="#">Affiliate</a></li>
+                </ul>
+                <ul>
+                    <li class="list-title">Help & Support</li>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="#">Free return</a></li>
+                    <li><a href="#">How to order</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="#">Refund</a></li>
+                </ul>
+                <ul>
+                    <li class="list-title">Social Media</li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Snap Chat</a></li>
+                    <li><a href="#">Pinterest</a></li>
+                    <li><a href="#">Google</a></li>
+                </ul>
+                <ul>
+                    <li class="list-title">Customer Care</li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Payment & Taxes</a></li>
+                    <li><a href="#">Bonus Point</a></li>
+                    <li><a href="#">Share & Earn</a></li>
+
+                </ul>
+            </div>
+        </footer>
+
+
+        <section class="copyright">
+           FE Fashion &reg All Righs Reserved
+        </section>
+    </body>
+
+</html>
